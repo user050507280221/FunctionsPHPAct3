@@ -20,5 +20,5 @@ echo calculate(a: 5, b: 2, command: 'multiply') . "<br>";
 echo calculate(a: 7, b: 2, command: 'division') . "<br>";
 
 
-
+$str ="WebSystemTechnologiesIT204"
 ?>
