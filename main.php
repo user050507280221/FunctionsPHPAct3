@@ -14,14 +14,11 @@ function calculate ($a, $b, $command): mixed {
             return "Invalid Operation";
         }
 }
-echo calculate(a: 10, b: 5, command: 'add');
-echo "\n";
-echo calculate(a: 20, b: 10, command: 'subtract');
-echo "\n";
-echo calculate(a: 5, b: 2, command: 'multiply');
-echo "\n";
-echo calculate(a: 7, b: 2, command: 'division');
-echo "\n";
+echo calculate(a: 10, b: 5, command: 'add') . "<br>";
+echo calculate(a: 20, b: 10, command: 'subtract') . "<br>";
+echo calculate(a: 5, b: 2, command: 'multiply') . "<br>";
+echo calculate(a: 7, b: 2, command: 'division') . "<br>";
+
 
 
 ?>
